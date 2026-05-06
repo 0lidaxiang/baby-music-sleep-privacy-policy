@@ -1,129 +1,134 @@
+ <!DOCTYPE html>                                                                                                                                                                                                                               
+  <html lang="zh-CN">                                                                        
+  <head>                                                                                                                                                                                                                                        
+      <meta charset="UTF-8">          
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                                                                                                                                    
+      <title>哄睡音乐播放器 - 隐私政策</title>                                               
+      <style>                                                                                                                                                                                                                                   
+          body {
+              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;                                                                                                                          
+              line-height: 1.6;                                                                                                                                                                                                                 
+              max-width: 800px;
+              margin: 0 auto;                                                                                                                                                                                                                   
+              padding: 20px;                                                                                                                                                                                                                    
+              color: #333;            
+          }                                                                                                                                                                                                                                     
+          h1 {                                                                               
+              color: #1a1a1a;                                                                                                                                                                                                                   
+              border-bottom: 2px solid #007AFF;                                                                                                                                                                                                 
+              padding-bottom: 10px;                                                                                                                                                                                                             
+          }                                                                                                                                                                                                                                     
+          h2 {                                                                                                                                                                                                                                  
+              color: #333;                                                                   
+              margin-top: 30px;     
+          }                                                                                                                                                                                                                                     
+          .update-date {              
+              color: #666;                                                                                                                                                                                                                      
+              font-size: 0.9em;                                                              
+              margin-bottom: 30px;                                                                                                                                                                                                              
+          }  
+          .highlight {                                                                                                                                                                                                                          
+              background-color: #f0f8ff;                                                     
+              padding: 15px;                                                                                                                                                                                                                    
+              border-left: 4px solid #007AFF;
+              margin: 20px 0;                                                                                                                                                                                                                   
+          }                                                                                  
+          ul {                                                                                                                                                                                                                                  
+              padding-left: 20px;                                                            
+          }                                                                                                                                                                                                                                     
+          li {                        
+              margin: 10px 0;                                                                                                                                                                                                                   
+          }                                                                                  
+          code {       
+              background: #f4f4f4;
+              padding: 2px 6px;     
+              border-radius: 3px;                                                                                                                                                                                                               
+              font-size: 0.92em;                                                                                                                                                                                                                
+          }                                                                                                                                                                                                                                     
+      </style>                                                                                                                                                                                                                                  
+  </head>                                                                                    
+  <body>               
+      <h1>哄睡音乐播放器 隐私政策</h1>
+      <p class="update-date">最后更新日期：2026年5月6日</p>                                                                                                                                                                                     
+                                                                                                                                                                                                                                                
+      <div class="highlight">                                                                                                                                                                                                                   
+          <strong>核心承诺：</strong>哄睡音乐播放器 是一款完全离线的本地音乐播放器。App 本身不连接任何后端服务器，不收集、不传输、不存储任何用户数据到远程服务器。您的所有数据都保存在您的设备上。                                              
+      </div>                                                                                                                                                                                                                                    
+                       
+      <h2>1. 我们收集什么信息</h2>                                                                                                                                                                                                              
+      <p><strong>我们不收集任何个人信息。</strong></p>                                       
+      <p>哄睡音乐播放器 仅在您的设备本地存储以下数据：</p>                                                                                                                                                                                      
+      <ul>                                                                                                                                                                                                                                      
+          <li>您导入的音乐文件（MP3 格式）</li>                                                                                                                                                                                                 
+          <li>App 随包预置的 3 首自然白噪声（水流声 / 火焰声 / 山顶风声，首次启动时自动复制到您的设备）</li>                                                                                                                                    
+          <li>音乐文件的元数据（标题、文件大小、时长、导入时间）</li>                                                                                                                                                                           
+          <li>播放偏好设置（如循环模式、上次播放的曲目）</li>                                                                                                                                                                                   
+      </ul>                                                                                                                                                                                                                                     
+      <p>这些数据仅存储在您的 iPhone 或 iPad 设备上，永远不会离开您的设备。</p>                                                                                                                                                                 
+                                                                                                                                                                                                                                                
+      <h2>2. 我们如何使用信息</h2>                                                                                                                                                                                                              
+      <p>所有数据仅用于应用的基本功能：</p>                                                                                                                                                                                                     
+      <ul>                                                                                                                                                                                                                                      
+          <li>显示您的音乐库</li>                                                            
+          <li>播放您选择的音乐</li>                                                                                                                                                                                                             
+          <li>记住您的播放偏好</li>                                                                                                                                                                                                             
+      </ul>                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                
+      <h2>3. 数据存储位置</h2>                                                                                                                                                                                                                  
+      <p>所有数据存储在您设备的应用沙盒目录中：</p>                                                                                                                                                                                             
+      <ul>                                                                                                                                                                                                                                      
+          <li>音乐文件：<code>Application Support/Lull/Music/</code></li>
+          <li>数据库：<code>Application Support/Lull/lull.db</code></li>                                                                                                                                                                        
+      </ul>                                                                                                                                                                                                                                     
+      <p>如果您启用了 iCloud 备份，这些数据可能包含在 iOS 系统级备份中；我们不提供任何跨设备同步服务，也不会在 App 之间共享您的数据。</p>                                                                                                       
+                                                                                                                                                                                                                                                
+      <h2>4. 权限与系统能力</h2>                                                             
+      <p>哄睡音乐播放器 使用以下 iOS 系统能力（均不需要单独弹窗授权）：</p>                                                                                                                                                                     
+      <ul>                                                                                                                                                                                                                                      
+          <li><strong>系统文件选择器：</strong>用于让您挑选需要导入的 MP3 文件。App 仅能访问您主动选择的那一个文件，无法扫描或浏览您的其他文件</li>
+          <li><strong>后台音频播放：</strong>允许在锁屏或切换到其他应用时继续播放音乐</li>                                                                                                                                                      
+      </ul>                                                                                                                                                                                                                                     
+      <p>我们不请求以下权限：</p>                                                                                                                                                                                                               
+      <ul>                                                                                                                                                                                                                                      
+          <li>❌ 网络访问</li>                                                               
+          <li>❌ 位置信息</li>        
+          <li>❌ 相机 / 麦克风</li>                                                                                                                                                                                                             
+      </ul>
 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>哄睡宝宝音乐播放器 - 隐私政策</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-        h1 {
-            color: #1a1a1a;
-            border-bottom: 2px solid #007AFF;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #333;
-            margin-top: 30px;
-        }
-        .update-date {
-            color: #666;
-            font-size: 0.9em;
-            margin-bottom: 30px;
-        }
-        .highlight {
-            background-color: #f0f8ff;
-            padding: 15px;
-            border-left: 4px solid #007AFF;
-            margin: 20px 0;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <h1>哄睡宝宝音乐播放器 隐私政策</h1>
-    <p class="update-date">最后更新日期：2026年3月10日</p>
+      <h2>5. 第三方服务</h2>
+      <p><strong>我们不使用任何第三方服务。</strong></p>
+      <p>哄睡音乐播放器 不集成：</p>
+      <ul>
+          <li>分析工具（如 Google Analytics、友盟、神策等）</li>
+          <li>广告网络</li>
+          <li>崩溃报告服务（如 Firebase Crashlytics、Sentry 等）</li>
+          <li>社交媒体 SDK</li>
+          <li>任何形式的埋点或追踪 SDK</li>
+      </ul>
 
-    <div class="highlight">
-        <strong>核心承诺：</strong>哄睡宝宝音乐播放器 是一款完全离线的本地音乐播放器，不收集、不传输、不存储任何用户数据到远程服务器。我们没有服务器，您的所有数据都保存在您的设备上。
-    </div>
+      <h2>6. 数据安全</h2>
+      <p>由于所有数据都存储在您的设备上，数据安全由 iOS 系统的沙盒机制保护。其他应用无法访问 哄睡音乐播放器 的数据。App 自身也没有任何远程通信通道，不存在因网络传输造成的数据泄露风险。</p>
 
-    <h2>1. 我们收集什么信息</h2>
-    <p><strong>我们不收集任何个人信息。</strong></p>
-    <p>哄睡宝宝音乐播放器 仅在您的设备本地存储以下数据：</p>
-    <ul>
-        <li>您导入的音乐文件（MP3 格式）</li>
-        <li>音乐文件的元数据（标题、文件大小、导入时间）</li>
-        <li>播放偏好设置（如循环模式、上次播放的曲目）</li>
-    </ul>
-    <p>这些数据仅存储在您的 iPhone 设备上，永远不会离开您的设备。</p>
+      <h2>7. 儿童隐私</h2>
+      <p>哄睡音乐播放器 适合所有年龄段使用（4+）。我们不会故意收集 13 岁以下儿童的任何信息，因为我们根本不收集任何信息。本应用不含任何社交、聊天、在线互动或用户生成内容功能。</p>
 
-    <h2>2. 我们如何使用信息</h2>
-    <p>所有数据仅用于应用的基本功能：</p>
-    <ul>
-        <li>显示您的音乐库</li>
-        <li>播放您选择的音乐</li>
-        <li>记住您的播放偏好</li>
-    </ul>
+      <h2>8. 数据删除</h2>
+      <p>您可以随时删除数据：</p>
+      <ul>
+          <li>在应用内左滑单条曲目删除（含预置曲目）</li>
+          <li>卸载应用将删除所有本地数据，包括导入的音乐文件、预置音频和播放偏好</li>
+      </ul>
 
-    <h2>3. 数据存储位置</h2>
-    <p>所有数据存储在您设备的应用沙盒目录中：</p>
-    <ul>
-        <li>音乐文件：<code>Application Support/Lull/Music/</code></li>
-        <li>数据库：<code>Application Support/Lull/lull.db</code></li>
-    </ul>
-    <p>这些数据会随 iCloud 备份（如果您启用了 iCloud 备份），但不会同步到其他设备。</p>
+      <h2>9. 隐私政策变更</h2>
+      <p>如果我们更新此隐私政策，会在此页面发布新版本，并更新"最后更新日期"。重大变更会在应用内首次启动时引导您重新阅读。</p>
 
-    <h2>4. 权限说明</h2>
-    <p>哄睡宝宝音乐播放器 仅请求以下系统权限：</p>
-    <ul>
-        <li><strong>文件访问：</strong>用于导入您选择的 MP3 文件（通过系统文件选择器）</li>
-        <li><strong>后台音频播放：</strong>允许在锁屏或切换应用时继续播放音乐</li>
-    </ul>
-    <p>我们不请求以下权限：</p>
-    <ul>
-        <li>❌ 网络访问</li>
-        <li>❌ 位置信息</li>
-        <li>❌ 相机/麦克风</li>
-        <li>❌ 通讯录</li>
-        <li>❌ 照片库</li>
-    </ul>
+      <h2>10. 联系我们</h2>
+      <p>如果您对此隐私政策有任何疑问，请通过以下方式联系我们：</p>
+      <p>邮箱：<a href="mailto:cad314@126.com">cad314@126.com</a></p>
 
-    <h2>5. 第三方服务</h2>
-    <p><strong>我们不使用任何第三方服务。</strong></p>
-    <p>哄睡宝宝音乐播放器 不集成：</p>
-    <ul>
-        <li>分析工具（如 Google Analytics）</li>
-        <li>广告网络</li>
-        <li>崩溃报告服务</li>
-        <li>社交媒体 SDK</li>
-    </ul>
-
-    <h2>6. 数据安全</h2>
-    <p>由于所有数据都存储在您的设备上，数据安全由 iOS 系统的沙盒机制保护。其他应用无法访问 Lull 的数据。</p>
-
-    <h2>7. 儿童隐私</h2>
-    <p>哄睡宝宝音乐播放器 适合所有年龄段使用（4+）。我们不会故意收集 13 岁以下儿童的任何信息，因为我们根本不收集任何信息。</p>
-
-    <h2>8. 数据删除</h2>
-    <p>您可以随时删除数据：</p>
-    <ul>
-        <li>在应用内删除单个曲目</li>
-        <li>卸载应用将删除所有本地数据</li>
-    </ul>
-
-    <h2>9. 隐私政策变更</h2>
-    <p>如果我们更新此隐私政策，会在此页面发布新版本，并更新"最后更新日期"。</p>
-
-    <h2>10. 联系我们</h2>
-    <p>如果您对此隐私政策有任何疑问，请通过以下方式联系我们：</p>
-    <p>邮箱：<a href="mailto:cad314@126.com"> cad314@126.com </a></p>
-
-    <hr style="margin-top: 50px; border: none; border-top: 1px solid #ddd;">
-    <p style="text-align: center; color: #999; font-size: 0.9em;">
-        © 2026 哄睡宝宝音乐播放器 本应用完全离线运行，保护您的隐私。
-    </p>
-</body>
-</html>
+      <hr style="margin-top: 50px; border: none; border-top: 1px solid #ddd;">
+      <p style="text-align: center; color: #999; font-size: 0.9em;">
+          © 2026 哄睡音乐播放器 本应用完全离线运行，保护您的隐私。
+      </p>
+  </body>
+  </html>
